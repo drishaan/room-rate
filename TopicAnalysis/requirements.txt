@@ -1,0 +1,2 @@
+seaborn==0.11.1
+little-mallet-wrapper==0.2.0
