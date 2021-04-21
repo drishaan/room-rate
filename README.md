@@ -6,12 +6,17 @@ The COVID-19 pandemic has forced many communications to enter the virtual settin
 ## Data Processing
 Run the `Data Processing.ipynb` Jupyter notebook.
 
-The resulting cleaned data will be in `data/cleaned.csv`.
+The raw data is in `data/output.csv`. The resulting cleaned text data will be in `data/cleaned.csv`.
+
+The text based columns for the tweet will be the following columns:
+`cleaned`: remove rating and links
+`no_stopwords`: remove rating and links, all lowercase, no stopwords
+`bigrams`: remove rating and links, all lowercase, no stopwords, and bigrams
+
+The image URL will be in the `img_url` column for the image classification, and CSV of all of the image links are in `data/images.csv`
 
 ## Data Exploration
 Run the `Data Exploration.ipynb` Jupyter notebook.
-
-It will output the words most common in rooms rated 0 and rooms rated 10, as well as summary statistics about the likes and dislikes for the tweets in the dataset.
 
 Run the `Data Exploration.ipynb` Jupyter notebook. Results about most common words in tweets and user engagement measured by mean likes and retweets is printed out to review.
 
