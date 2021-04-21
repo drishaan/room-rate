@@ -4,12 +4,22 @@ The COVID-19 pandemic has forced many communications to enter the virtual settin
 **Application: Can we use text and image classification to predict the rating of a background from @ratemyskyperoom?**
 
 ## Data Processing
-
 Run the `Data Processing.ipynb` Jupyter notebook.
 
+The resulting cleaned data will be in `data/cleaned.csv`.
+
 ## Data Exploration
+Run the `Data Exploration.ipynb` Jupyter notebook.
+
+It will output the words most common in rooms rated 0 and rooms rated 10, as well as summary statistics about the likes and dislikes for the tweets in the dataset.
 
 ## Text Classification
+We ran Naive Bayes, SVM, Random Forest, and Logistic Regression models as text classifiers. In the following files, we train models on the data and print out the words that are the most predictive for "good" and "bad" rooms. To run the models, run
+- `Non-NB Models.ipynb`
+- `NaiveBayes.ipynb`
+- `LogisticRegression.ipynb`
+
+You can change which dataset the model is fit on by changing the `X` data to be either `data.cleaned` (default, cleaned dataset), `data.no_stopwords` (cleaned and removed stopwords), or `bigram` (cleaned, no stopwords, and bigrams).
 
 ## Topic Analysis
 ### MALLET:
