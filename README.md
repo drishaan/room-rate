@@ -9,9 +9,9 @@ Run the `Data Processing.ipynb` Jupyter notebook.
 The raw data is in `data/output.csv`. The resulting cleaned text data will be in `data/cleaned.csv`.
 
 The text based columns for the tweet will be the following columns:
-`cleaned`: remove rating and links
-`no_stopwords`: remove rating and links, all lowercase, no stopwords
-`bigrams`: remove rating and links, all lowercase, no stopwords, and bigrams
+- `cleaned`: remove rating and links
+- `no_stopwords`: remove rating and links, all lowercase, no stopwords
+- `bigrams`: remove rating and links, all lowercase, no stopwords, and bigrams
 
 The image URL will be in the `img_url` column for the image classification, and CSV of all of the image links are in `data/images.csv`
 
