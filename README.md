@@ -13,6 +13,8 @@ Run the `Data Exploration.ipynb` Jupyter notebook.
 
 It will output the words most common in rooms rated 0 and rooms rated 10, as well as summary statistics about the likes and dislikes for the tweets in the dataset.
 
+Run the `Data Exploration.ipynb` Jupyter notebook. Results about most common words in tweets and user engagement measured by mean likes and retweets is printed out to review.
+
 ## Text Classification
 We ran Naive Bayes, SVM, Random Forest, and Logistic Regression models as text classifiers. In the following files, we train models on the data and print out the words that are the most predictive for "good" and "bad" rooms. To run the models, run
 - `Non-NB Models.ipynb`
