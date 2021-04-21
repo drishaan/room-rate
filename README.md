@@ -9,6 +9,8 @@ Run the `Data Processing.ipynb` Jupyter notebook.
 
 ## Data Exploration
 
+Run the `Data Exploration.ipynb` Jupyter notebook. Results about most common words in tweets and user engagement measured by mean likes and retweets is printed out to review.
+
 ## Text Classification
 
 ## Topic Analysis
