@@ -5,6 +5,8 @@ The COVID-19 pandemic has forced many communications to enter the virtual settin
 
 ## Data Processing
 
+Run the `Data Processing.ipynb` Jupyter notebook.
+
 ## Data Exploration
 
 ## Text Classification
@@ -19,3 +21,7 @@ We ran MALLET (using a python wrapper) to preliminarily run LDA Topic Modeling o
 (Isha)
 
 ## Image Classification
+
+Run the `Computer Vision.ipynb` Jupyter notebook. Make sure `torch`, `pandas`,
+`numpy`, `matplotlib`, `seaborn`, `torchvision`, `torchsummary`, `scikit-learn`
+and `tqdm` are installed.
