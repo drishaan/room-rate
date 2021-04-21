@@ -20,10 +20,9 @@ We ran MALLET (using a python wrapper) to preliminarily run LDA Topic Modeling o
 ### LDA Topic Modeling and Logistic Regression
 We also utilized the Python package, Gensim, to run LDA Topic Modeling on our dataset, and fed the topic probability outputs as features into Sklearn's Logistic Regression package.
 
-Run the `LDA_topic_modeling.ipynb` Jupyter notebook found in the folder `TopicAnalysis/`. Make sure to pip install the following libraries: 
+Run the `LDA_topic_modeling.ipynb` Jupyter notebook found in the folder `TopicAnalysis/`. Make sure to pip install the following libraries in addition to those found in `requirements.txt`: 
 - gensim
 - sklearn
-- PorterStemmer
 
 and include the folder `porter.py` in the same folder as to see Stemming results.
 
