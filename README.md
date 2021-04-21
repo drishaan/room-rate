@@ -24,7 +24,7 @@ Run the `LDA_topic_modeling.ipynb` Jupyter notebook found in the folder `TopicAn
 - gensim
 - sklearn
 
-and include the folder `porter.py` in the same folder as to see Stemming results.
+and include the file `porter.py` in the same folder as to see Stemming results.
 
 ## Image Classification
 
